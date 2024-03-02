@@ -1,0 +1,60 @@
+// フォント設定・リセットCSS
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  overflow-x: hidden;
+  background-color: #efefef;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+  padding: 100px 0 40px;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-size: 0.9rem;
+}
+
+h5 {
+  font-size: 0.9rem;
+}
+
+.jump_point {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}

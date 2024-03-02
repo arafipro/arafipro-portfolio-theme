@@ -1,0 +1,26 @@
+.news {
+	margin: 0 auto;
+
+	dl {
+		display: flex;
+		flex-wrap: wrap;
+		border-top: 1px solid #ccc;
+		height: 282px;
+		overflow-x: scroll;
+	}
+	
+	dt,
+	dd {
+		border-bottom: 1px solid #ccc;
+		padding: 16px 0
+	}
+	
+	dt {
+		width: 20%;
+	}
+	
+	dd {
+		width: 80%;
+	}
+}
+
