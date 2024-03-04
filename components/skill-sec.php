@@ -1,5 +1,5 @@
 <section id="skill" class="skill jump_point">
-	<h2>Skills</h2>
+	<h2 class="top-title">Skills</h2>
 	<div>
 		<h3>ホームページ</h3>
 		<a href="https://skillicons.dev">

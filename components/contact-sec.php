@@ -1,5 +1,5 @@
 <section id="contact" class="contact">
-	<h2>Contact</h2>
+	<h2 class="top-title">Contact</h2>
 	<h3>
 		お問い合わせは&nbsp;<a href="mailto:contact@arafipro.com">
 			contact@arafipro.com

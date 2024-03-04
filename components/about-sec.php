@@ -1,5 +1,5 @@
 <section id="about" class="about jump_point">
-	<h2>About</h2>
+	<h2 class="top-title">About</h2>
 	<div>
 		<img src="<?php echo get_template_directory_uri(); ?>/images/human.png" alt="" />
 		<p>

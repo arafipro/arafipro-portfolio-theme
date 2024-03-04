@@ -1,5 +1,5 @@
 <section id="discription" class="discription jump_point">
-	<h2>Discriptions</h2>
+	<h2 class="top-title">Discriptions</h2>
 	<div class="discription-cards">
 		<?php
             // トップページの場合は6件、それ以外はすべて表示
@@ -17,8 +17,8 @@
 			<div class="discription-card">
 				<a href="<?php the_permalink(); ?>" target="_top">
 					<h3><?php the_title(); ?></h3>
-					<!-- <h4>当ポートフォリオサイト</h4>
-					<h5>HTML CSS SASS JavaScript</h5> -->
+					<h4>当ポートフォリオサイト</h4>
+					<h5>HTML CSS SASS JavaScript</h5>
 					<div class="img">
 						<img src="<?php echo get_template_directory_uri(); ?>/images/ss-portfolio.jpg" alt="" />
 					</div>

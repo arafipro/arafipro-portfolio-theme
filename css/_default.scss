@@ -1,5 +1,5 @@
 // フォント設定・リセットCSS
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 
 * {
   margin: 0;
@@ -30,19 +30,11 @@ img {
   display: block;
 }
 
-h2 {
+.top-title {
   font-size: 2rem;
   font-weight: 100;
   text-align: center;
   padding: 100px 0 40px;
-}
-
-h4 {
-  font-size: 0.9rem;
-}
-
-h5 {
-  font-size: 0.9rem;
 }
 
 .jump_point {

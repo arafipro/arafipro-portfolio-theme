@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,19 +28,11 @@ img {
   display: block;
 }
 
-h2 {
+.top-title {
   font-size: 2rem;
   font-weight: 100;
   text-align: center;
   padding: 100px 0 40px;
-}
-
-h4 {
-  font-size: 0.9rem;
-}
-
-h5 {
-  font-size: 0.9rem;
 }
 
 .jump_point {
@@ -703,6 +695,23 @@ section {
   .skill div .api {
     display: block;
   }
+}
+
+.discription {
+  font-weight: normal;
+}
+
+main .single-container {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 40px auto 0;
+  max-width: 1200px;
+}
+main .single-container div {
+  width: 50%;
+}
+main .single-container div img {
+  width: 100%;
 }
 
 footer {

@@ -121,3 +121,8 @@ add_action("init", "cpt_register_movie_tag");
 add_action("init", "cpt_register_movie_remove_edit");
 
 add_filter("register_post_type_args", "post_has_archive", 10, 2);
+
+// テーマフォルダ内の「style.css」を読み込む場合
+add_action('wp_enqueue_scripts', function () {
+    wp_enqueue_style('my-style', get_template_directory_uri() . '/css/theme.css');
+});

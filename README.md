@@ -31,3 +31,6 @@ Noto Sans JP Regular 400 menu
 ## プラグイン
 
 - Custom Field Suite
+- Query Monitor
+- SyntaxHighlighter Evolved
+- WP Multibyte Patch
