@@ -20,7 +20,7 @@
 					<div>
 						<img src="<?php echo CFS()->get("p_thumbnail"); ?>" alt="" />
 					</div>
-					<h3><?php echo CFS()->get("p_title"); ?></h3>
+					<h3><?php the_title(); ?></h3>
 					<h4><?php echo CFS()->get("p_subtitle"); ?></h4>
 					<h5>
 						<?php $values = CFS()->get('p_stack');

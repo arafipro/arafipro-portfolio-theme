@@ -28,8 +28,6 @@ Noto Sans JP Regular 400 menu
 | skill-sec.php   | section/\_skill.scss   |
 | card/discription-card.php| card/\_discription-card.scss|
 
+## プラグイン
 
-ヘッダー画像をページによって変更する
-https://youtu.be/eSKQOfAoR1Q?si=lALhLijluBjCebww&t=646
-ページによってCSSのクラスの読み込みを変更する
-`_header.scss`の`.header_top`を変更する
+- Custom Field Suite

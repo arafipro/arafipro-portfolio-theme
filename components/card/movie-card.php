@@ -24,7 +24,7 @@
 						<?php foreach ($values as $key => $label): ?>
 							<span>【<?php echo $label; ?>】</span><?php endforeach; ?>
 					<?php endif; ?>
-					<h3><?php echo CFS()->get("m_title"); ?></h3>
+					<h3><?php the_title(); ?></h3>
 				</a>
 			</div>
 		<?php endwhile; endif; ?>
