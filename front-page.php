@@ -9,9 +9,9 @@
     <main>
 			<?php get_template_part("components/about-sec") ?>
 			<?php get_template_part("components/skill-sec") ?>
-			<?php get_template_part("components/top/discription-top") ?>
-			<?php get_template_part("components/top/product-top") ?>
-			<?php get_template_part("components/top/movie-top") ?>
+			<?php get_template_part("components/card/discription-card") ?>
+			<?php get_template_part("components/card/product-card") ?>
+			<?php get_template_part("components/card/movie-card") ?>
 			<?php get_template_part("components/contact-sec") ?>
     </main>
 		<?php get_template_part("components/nav/footer-nav") ?>

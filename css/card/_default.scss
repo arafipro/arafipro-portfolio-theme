@@ -1,0 +1,13 @@
+@import "./discription-card";
+@import "./product-card";
+@import "./movie-card";
+
+.more {
+  text-align: center;
+  display: block;
+  span {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ddd;
+  }
+}

@@ -7,7 +7,7 @@
   <body>
 	<?php get_template_part("components/nav/header-nav") ?>
     <main>
-			<?php get_template_part("components/archive/movie") ?>
+			<?php get_template_part("components/card/movie-card") ?>
     </main>
 		<?php get_template_part("components/nav/footer-nav") ?>
 		<!-- footer.phpを読み込む -->

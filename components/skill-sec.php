@@ -1,4 +1,4 @@
-<section id="skills" class="skill jump_point">
+<section id="skill" class="skill jump_point">
 	<h2>Skills</h2>
 	<div>
 		<h3>ホームページ</h3>
