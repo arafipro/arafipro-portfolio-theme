@@ -420,8 +420,8 @@ section {
   margin: 0 auto 40px;
 }
 .product-cards .product-card a {
-  width: 300px;
-  height: 400px;
+  width: 360px;
+  height: 380px;
   display: inline-block;
   text-align: center;
   background-color: #fff;
@@ -480,8 +480,8 @@ section {
   margin: 0 auto 40px;
 }
 .movie-cards .movie-card a {
-  width: 300px;
-  height: 300px;
+  width: 360px;
+  height: 360px;
   display: inline-block;
   text-align: center;
   background-color: #fff;
