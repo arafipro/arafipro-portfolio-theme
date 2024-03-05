@@ -31,7 +31,8 @@
 					</h5>
 				</a>
 			</div>
-		<?php endwhile; endif; ?>
+		<?php endwhile; endif;
+		wp_reset_postdata(); ?>
 	</div>
 	<?php if(is_front_page()):	?>
 		<a href="<?php get_template_directory_uri(); ?>/product" class="more">

@@ -32,17 +32,6 @@ function cpt_register_product_cat()
     register_taxonomy("product-cat", ["product"], $args);
 }
 
-// プロダクト投稿タイプにタグを追加
-function cpt_register_product_tag()
-{
-    $args = [
-        "label" => "タグ",
-        "public" => true,
-        "show_in_rest" => true,
-    ];
-    register_taxonomy("product-tag", ["product"], $args);
-}
-
 // プロダクト投稿タイプのエディターを削除
 function cpt_register_product_remove_edit()
 {
@@ -83,17 +72,6 @@ function cpt_register_movie_cat()
     register_taxonomy("movie-cat", ["movie"], $args);
 }
 
-// 動画投稿タイプにタグを追加
-function cpt_register_movie_tag()
-{
-    $args = [
-        "label" => "タグ",
-        "public" => true,
-        "show_in_rest" => true,
-    ];
-    register_taxonomy("movie-tag", ["movie"], $args);
-};
-
 // 動画投稿タイプのエディターを削除
 function cpt_register_movie_remove_edit()
 {
@@ -112,12 +90,10 @@ function post_has_archive($args, $post_type)
 
 add_action("init", "cpt_register_product");
 add_action("init", "cpt_register_product_cat");
-add_action("init", "cpt_register_product_tag");
 add_action("init", "cpt_register_product_remove_edit");
 
 add_action("init", "cpt_register_movie");
 add_action("init", "cpt_register_movie_cat");
-add_action("init", "cpt_register_movie_tag");
 add_action("init", "cpt_register_movie_remove_edit");
 
 add_filter("register_post_type_args", "post_has_archive", 10, 2);

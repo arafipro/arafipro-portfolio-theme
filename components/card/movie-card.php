@@ -28,7 +28,7 @@
 					<h3><?php the_title(); ?></h3>
 				</a>
 			</div>
-		<?php endwhile; endif; ?>
+		<?php endwhile; endif; wp_reset_postdata(); ?>
 	</div>
 	<?php if(is_front_page()):	?>
 		<a href="<?php get_template_directory_uri(); ?>/movie" class="more">

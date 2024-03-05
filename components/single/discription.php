@@ -1,4 +1,4 @@
-<section class="discription">
+<section class="discription-single">
 	<?php	if(have_posts()): while(have_posts()): the_post(); ?>
 		<h1>
 			Discription - <?php the_title() ?>

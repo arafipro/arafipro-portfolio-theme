@@ -2,7 +2,8 @@
 <!-- Navigation -->
 <div id="scroll"></div>
 <!-- 固定ヘッダー -->
-<header id="header" class="header_top">
+<header id="header" class=<?php if(is_front_page()): echo "header_top";
+else: echo "header_sub"; endif;?>>
 	<div id="header_main">
 		<h1>
 			<a href="<?php get_template_directory_uri(); ?>/">
@@ -35,5 +36,5 @@
 			<i class="ri-close-line" id="close_icon"></i>
 		</div>
 	</div>
-	<!-- <?php get_template_part("components/hero-sec") ?> -->
+	<?php get_template_part("components/hero-sec") ?>
 </header>
