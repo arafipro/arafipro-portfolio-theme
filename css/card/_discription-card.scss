@@ -1,48 +1,41 @@
 .discription-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   &:last-child {
     margin-bottom: 0;
   }
-
   .discription-card {
     display: block;
     margin: 0 auto 40px;
-
     a {
       width: 300px;
       height: 400px;
       display: inline-block;
       text-align: center;
       padding-top: 30px;
+      color: #000;
       background-color: #fff;
       border: 1px solid #fff;
       border-radius: 20px;
       transition: all 0.5s;
-
       &:hover {
         box-shadow: 10px 5px 5px #ccc;
         transform: scale(1.1) translateY(-5px);
       }
     }
-
     h3,
     h4 {
       margin-bottom: 10px;
     }
-
     h5 {
       margin-bottom: 30px;
     }
-
     p {
       font-size: 0.8rem;
       font-weight: 300;
       text-align: justify;
       margin-top: 20px;
     }
-
     img {
       display: inline;
       border-radius: 10px;
@@ -53,18 +46,14 @@
 }
 
 @media screen and (max-width: 1024px) {
-  .categories {
+  .discription-cards {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
-    .category {
-      grid-area: 1 / 1 / 2 / 3;
-    }
   }
 }
 
 @media screen and (max-width: 500px) {
-  .categories {
+  .discription-cards {
     display: flex;
     flex-direction: column;
     justify-content: center;

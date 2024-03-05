@@ -1,15 +1,12 @@
 .movie-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-
   &:last-child {
     margin-bottom: 0;
   }
-
   .movie-card {
     display: block;
     margin: 0 auto 40px;
-
     a {
       width: 300px;
       height: 300px;
@@ -20,19 +17,16 @@
       border: 1px solid #fff;
       border-radius: 10px;
       transition: all 0.5s;
-
       &:hover {
         box-shadow: 10px 5px 5px #ccc;
         transform: scale(1.1) translateY(-5px);
       }
     }
-
     h3 {
       font-size: 1rem;
       margin: 10px 6px 0;
       text-align: start;
     }
-
     img {
       display: inline;
       border-radius: 10px;
