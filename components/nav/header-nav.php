@@ -14,19 +14,19 @@ else: echo "header_sub"; endif;?>>
 			<ul id="nav_menu">
 				<?php if(is_front_page()): ?>
 					<li><a href="#" class="nav_link">Home</a></li>
-					<li><a href="#about" class="nav_link">About</a></li>
-					<li><a href="#skill" class="nav_link">Skill</a></li>
 					<li><a href="#discription" class="nav_link">Discription</a></li>
-					<li><a href="#product" class="nav_link">Product</a></li>
 					<li><a href="#movie" class="nav_link">Movie</a></li>
+					<li><a href="#product" class="nav_link">Product</a></li>
+					<li><a href="about" class="nav_link">About</a></li>
+					<li><a href="#skill" class="nav_link">Skill</a></li>
 					<li><a href="#contact" class="nav_link">Contact</a></li>
 				<?php else: ?>
 					<li><a href="<?php get_template_directory_uri(); ?>/" class="nav_link">Home</a></li>
+					<li><a href="<?php get_template_directory_uri(); ?>/discription" class="nav_link">Discription</a></li>
+					<li><a href="<?php get_template_directory_uri(); ?>/movie" class="nav_link">Movie</a></li>
+					<li><a href="<?php get_template_directory_uri(); ?>/product" class="nav_link">Product</a></li>
 					<li><a href="<?php get_template_directory_uri(); ?>/about" class="nav_link">About</a></li>
 					<li><a href="<?php get_template_directory_uri(); ?>/#skill" class="nav_link">Skill</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/discription" class="nav_link">Discription</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/product" class="nav_link">Product</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/movie" class="nav_link">Movie</a></li>
 					<li><a href="<?php get_template_directory_uri(); ?>/#contact" class="nav_link">Contact</a></li>
 				<?php endif; ?>
 			</ul>
