@@ -14,7 +14,7 @@
 			<div class="links">
 				
 				<a href="<?php echo CFS()->get("p_github");?>">GitHubリポジトリ</a>
-				<a href="<?php CFS()->get("p_url"); ?>">デモサイト</a>
+				<a href="<?php echo CFS()->get("p_url"); ?>">デモサイト</a>
 			</div>
 		</div>
 	<?php endwhile; endif; ?>
