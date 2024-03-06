@@ -443,6 +443,7 @@ section {
 .product-cards .product-card a img {
   display: inline;
   border-radius: 10px;
+  max-width: 100%;
   max-height: 265px;
   margin: 0 auto;
 }
