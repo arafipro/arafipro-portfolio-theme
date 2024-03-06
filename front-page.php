@@ -4,7 +4,7 @@
 	<!-- header.phpを読み込む -->
 	<?php get_header(); ?>
   </head>
-  <body>
+  <body <?php body_class() ?>>	
 	<?php get_template_part("components/nav/header-nav") ?>
     <main>
 			<?php get_template_part("components/about-sec") ?>

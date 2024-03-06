@@ -36,8 +36,8 @@ img {
 }
 
 .jump_point {
-  padding-top: 20px;
-  margin-top: -20px;
+  padding-top: 10px;
+  margin-top: -10px;
 }
 
 section {
@@ -48,7 +48,7 @@ section {
 .header_top {
   width: 100%;
   height: 100vh;
-  background-image: url("../images/office-image.jpg");
+  background-image: url("../img/office-image.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -207,7 +207,7 @@ section {
 .header_sub {
   width: 100%;
   height: 400px;
-  background-image: url("../images/hero-code.jpg");
+  background-image: url("../img/hero-code.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
@@ -526,10 +526,76 @@ section {
   display: block;
 }
 .more span {
-  padding: 10px;
+  padding: 10px 20px;
   border-radius: 4px;
   background-color: #ddd;
   font-weight: bold;
+  transition: all 0.2s;
+}
+.more span:hover {
+  background-color: #bbb;
+}
+
+.site-privacy {
+  font-weight: normal;
+  padding: 40px;
+  background-color: #fff;
+}
+.site-privacy h1 {
+  font-size: 3.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.site-privacy h2,
+.site-privacy h3,
+.site-privacy h4 {
+  margin: 40px 0 10px;
+}
+.site-privacy .info p {
+  text-align: end;
+}
+.site-privacy h1.wp-block-heading {
+  font-size: 3rem;
+}
+.site-privacy h2.wp-block-heading {
+  font-size: 2.5rem;
+}
+.site-privacy h3.wp-block-heading {
+  font-size: 2rem;
+}
+.site-privacy h4.wp-block-heading {
+  font-size: 1.75rem;
+}
+.site-privacy h5.wp-block-heading {
+  font-size: 1.5rem;
+}
+.site-privacy h6.wp-block-heading {
+  font-size: 1.25rem;
+}
+.site-privacy figure.wp-block-table table {
+  margin-bottom: 10px;
+  width: 80%;
+}
+.site-privacy figure.wp-block-image {
+  margin: 10px 0;
+}
+.site-privacy strong {
+  font-weight: bold;
+}
+.site-privacy a {
+  color: blue;
+  font-weight: bold;
+}
+.site-privacy p {
+  margin-bottom: 10px;
+}
+.site-privacy ul li {
+  list-style: disc;
+  margin-left: 20px;
+}
+.site-privacy ol li {
+  list-style: decimal;
+  margin-left: 20px;
 }
 
 .about div {
@@ -670,6 +736,45 @@ section {
   }
 }
 
+.contact {
+  margin: 0 auto;
+}
+.contact div dl {
+  display: flex;
+  margin: 20px 0;
+}
+.contact div dt {
+  width: 30%;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+}
+.contact div dd {
+  width: 70%;
+}
+.contact div dd input,
+.contact div dd textarea {
+  padding: 10px;
+  width: 100%;
+  border: none;
+}
+.contact div p {
+  text-align: center;
+}
+.contact div p .wpcf7-submit {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: none;
+  background-color: #ddd;
+  font-weight: bold;
+  transition: all 0.2s;
+}
+.contact div p .wpcf7-submit:hover {
+  background-color: #bbb;
+}
+
 .skill div {
   text-align: center;
   margin: 10px auto;
@@ -715,22 +820,22 @@ section {
   margin: 0;
 }
 .discription-single h1.wp-block-heading {
-  font-size: 4rem;
-}
-.discription-single h2.wp-block-heading {
   font-size: 3rem;
 }
-.discription-single h3.wp-block-heading {
+.discription-single h2.wp-block-heading {
   font-size: 2.5rem;
 }
-.discription-single h4.wp-block-heading {
+.discription-single h3.wp-block-heading {
   font-size: 2rem;
 }
-.discription-single h5.wp-block-heading {
+.discription-single h4.wp-block-heading {
   font-size: 1.75rem;
 }
-.discription-single h6.wp-block-heading {
+.discription-single h5.wp-block-heading {
   font-size: 1.5rem;
+}
+.discription-single h6.wp-block-heading {
+  font-size: 1.25rem;
 }
 .discription-single figure.wp-block-table table {
   margin-bottom: 10px;

@@ -7,7 +7,7 @@ else: echo "header_sub"; endif;?>>
 	<div id="header_main">
 		<h1>
 			<a href="<?php get_template_directory_uri(); ?>/">
-				<img src="<?php echo get_template_directory_uri(); ?>/images/logo_black.png" alt="" />
+				<img src="<?php echo get_template_directory_uri(); ?>/img/logo_black.png" alt="" />
 			</a>
 		</h1>
 		<nav>

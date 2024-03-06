@@ -40,6 +40,7 @@ Noto Sans JP Regular 400 menu
 | \_privacy.scss    | プライバシーポリシー       |
 | \_responsive.scss | レスポンシブ               |
 | \_scrollup.scss   | スクロール                 |
+| \_wp_block.scss   | 記事投稿本文               |
 
 ## 一覧表示
 
@@ -49,6 +50,13 @@ Noto Sans JP Regular 400 menu
 | card/\_discription-card.scss | 記事     |
 | card/\_movie-card.scss 　    | 動画     |
 | card/\_product-card.scss     | Product  |
+
+## 固定ページ
+
+| ファイル                 | 対応箇所             |
+| ------------------------ | -------------------- |
+| page/\_default.scss      | 共通                 |
+| page/\_site-privacy.scss | プライバシーポリシー |
 
 ## トップページ
 
@@ -61,11 +69,11 @@ Noto Sans JP Regular 400 menu
 
 ## 個別ページ
 
-| ファイル                  | 対応箇所     |
-| ------------------------- | ------------ |
-| single/\_default.scss     | 共通         |
-| single/\_discription.scss | 記事         |
-| single/\_wp_block.scss    | 記事投稿本文 |
+| ファイル                  | 対応箇所 |
+| ------------------------- | -------- |
+| single/\_default.scss     | 共通     |
+| single/\_discription.scss | 記事     |
+| single/\_product.scss     | Product  |
 
 # プラグイン
 
@@ -74,3 +82,8 @@ Noto Sans JP Regular 400 menu
 - SyntaxHighlighter Evolved
 - Highlighting Code Block
 - WP Multibyte Patch
+- Contact Form 7
+
+# 検討プラグイン
+
+https://wp-statistics.com/

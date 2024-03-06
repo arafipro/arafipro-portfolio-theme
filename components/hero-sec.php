@@ -1,10 +1,10 @@
 <?php if(is_front_page()): ?>
 	<div class="hero-top">
-		<img src="<?php echo get_template_directory_uri(); ?>/images/human.png" alt="" />
+		<img src="<?php echo get_template_directory_uri(); ?>/img/human.png" alt="" />
 		<p>
-			<span>Wellcome to My Portfolio</span>
+			<span><?php bloginfo('name'); ?></span>
 			<br />
-			Hiroki Chiyodaのポートフォリオサイトにようこそ
+			<?php bloginfo('description'); ?>
 		</p>
 	</div>
 <?php endif; ?>

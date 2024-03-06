@@ -1,0 +1,51 @@
+@mixin wp-block() {
+  h1.wp-block-heading {
+    font-size: 3rem;
+  }
+  h2.wp-block-heading {
+    font-size: 2.5rem;
+  }
+  h3.wp-block-heading {
+    font-size: 2rem;
+  }
+  h4.wp-block-heading {
+    font-size: 1.75rem;
+  }
+  h5.wp-block-heading {
+    font-size: 1.5rem;
+  }
+  h6.wp-block-heading {
+    font-size: 1.25rem;
+  }
+  figure.wp-block-table {
+    table {
+      margin-bottom: 10px;
+      width: 80%;
+    }
+  }
+  figure.wp-block-image {
+    margin: 10px 0;
+  }
+  strong {
+    font-weight: bold;
+  }
+  a {
+    color: blue;
+    font-weight: bold;
+  }
+  p {
+    margin-bottom: 10px;
+  }
+  ul {
+    li {
+      list-style: disc;
+      margin-left: 20px;
+    }
+  }
+  ol {
+    li {
+      list-style: decimal;
+      margin-left: 20px;
+    }
+  }
+}
