@@ -396,9 +396,15 @@ section {
 .discription-cards .discription-card a h4 {
   text-align: start;
   margin-bottom: 10px;
+  height: 50%;
 }
-.discription-cards .discription-card a h5 {
-  margin-bottom: 30px;
+.discription-cards .discription-card a .link {
+  width: 100px;
+  margin: 0 auto;
+  padding: 4px 0;
+  border-radius: 4px;
+  background-color: #ddd;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1024px) {
@@ -430,6 +436,12 @@ section {
   transition: all 0.5s;
   color: #000;
 }
+.product-cards .product-card a img {
+  display: inline;
+  border-radius: 10px;
+  width: 100%;
+  margin: 0 auto;
+}
 .product-cards .product-card a:hover {
   box-shadow: 10px 5px 5px #ccc;
   transform: translateY(-5px);
@@ -437,19 +449,21 @@ section {
 .product-cards .product-card a h3 {
   margin-bottom: 10px;
 }
-.product-cards .product-card a p {
+.product-cards .product-card a .stack {
   font-size: 1rem;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
-.product-cards .product-card a p span {
+.product-cards .product-card a .stack span {
   margin: 0 4px;
 }
-.product-cards .product-card a img {
-  display: inline;
-  border-radius: 10px;
-  width: 100%;
+.product-cards .product-card a .link {
+  width: 100px;
   margin: 0 auto;
+  padding: 4px 0;
+  border-radius: 4px;
+  background-color: #ddd;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1024px) {

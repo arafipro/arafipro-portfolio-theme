@@ -21,13 +21,14 @@
 						<img src="<?php echo CFS()->get("p_thumbnail"); ?>" alt="" />
 					</div>
 					<h3><?php the_title(); ?></h3>
-					<p>
+					<p class="stack">
 						<?php $values = CFS()->get('p_stack');
 		    if($values): ?>
 							<?php foreach ($values as $key => $label): ?>
 								<span><?php echo $label; ?></span><?php endforeach; ?>
 						<?php endif; ?>
 					</p>
+					<p class="link">詳細を見る</p>
 				</a>
 			</div>
 		<?php endwhile; endif;

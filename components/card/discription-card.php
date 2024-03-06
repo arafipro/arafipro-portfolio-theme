@@ -18,9 +18,11 @@
 				<a href="<?php the_permalink(); ?>" target="_top">
 					<h3><?php the_title(); ?></h3>
 					<h4><?php the_excerpt(); ?></h4>
+					<p class="link">記事を読む</p>
 				</a>
 			</div>
-		<?php endwhile; endif; wp_reset_postdata(); ?>
+		<?php endwhile; endif;
+		wp_reset_postdata(); ?>
 	</div>
 	<?php if(is_front_page()):	?>
 		<a href="<?php get_template_directory_uri(); ?>/discription" class="more">
