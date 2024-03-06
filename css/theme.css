@@ -427,7 +427,7 @@ section {
 }
 .product-cards .product-card a {
   width: 360px;
-  height: 380px;
+  height: 390px;
   display: inline-block;
   text-align: center;
   background-color: #fff;
@@ -436,15 +436,15 @@ section {
   transition: all 0.5s;
   color: #000;
 }
+.product-cards .product-card a:hover {
+  box-shadow: 10px 5px 5px #ccc;
+  transform: translateY(-5px);
+}
 .product-cards .product-card a img {
   display: inline;
   border-radius: 10px;
   width: 100%;
   margin: 0 auto;
-}
-.product-cards .product-card a:hover {
-  box-shadow: 10px 5px 5px #ccc;
-  transform: translateY(-5px);
 }
 .product-cards .product-card a h3 {
   margin-bottom: 10px;
