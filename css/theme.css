@@ -822,8 +822,11 @@ section {
   padding: 40px;
   background-color: #fff;
 }
-.discription-single h1 {
+.discription-single .top-title {
+  text-align: center;
   font-size: 3.5rem;
+  font-weight: bold;
+  padding-top: 0;
 }
 .discription-single a span {
   color: #000;
@@ -882,9 +885,11 @@ section {
   border-radius: 20px;
 }
 .product-single img {
-  width: 100%;
+  max-width: 100%;
   padding-top: 10px;
+  max-height: 900px;
   border-radius: 20px;
+  margin: 0 auto;
 }
 .product-single > div {
   padding: 0 40px 30px;

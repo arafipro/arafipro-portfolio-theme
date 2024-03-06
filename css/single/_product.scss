@@ -4,9 +4,11 @@
   background-color: #fff;
   border-radius: 20px;
   img {
-    width: 100%;
+    max-width: 100%;
     padding-top: 10px;
+    max-height: 900px;
     border-radius: 20px;
+		margin: 0 auto;
   }
   & > div {
     padding: 0 40px 30px;

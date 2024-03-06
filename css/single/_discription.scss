@@ -4,8 +4,11 @@
   font-weight: normal;
   padding: 40px;
   background-color: #fff;
-  h1 {
+  .top-title {
+    text-align: center;
     font-size: 3.5rem;
+    font-weight: bold;
+    padding-top: 0;
   }
   a {
     span {
