@@ -559,11 +559,6 @@ section {
   text-align: center;
   margin-bottom: 40px;
 }
-.site-privacy h2,
-.site-privacy h3,
-.site-privacy h4 {
-  margin: 40px 0 10px;
-}
 .site-privacy .info p {
   text-align: end;
 }
@@ -584,6 +579,12 @@ section {
 }
 .site-privacy h6.wp-block-heading {
   font-size: 1.25rem;
+}
+.site-privacy h2.wp-block-heading,
+.site-privacy h3.wp-block-heading,
+.site-privacy h4.wp-block-heading,
+.site-privacy h5.wp-block-heading {
+  margin: 40px 0 20px;
 }
 .site-privacy figure.wp-block-table table {
   margin-bottom: 10px;
@@ -832,7 +833,7 @@ section {
 }
 .discription-single .top-title {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.25rem;
   font-weight: bold;
   padding-top: 0;
 }
@@ -859,6 +860,12 @@ section {
 }
 .discription-single h6.wp-block-heading {
   font-size: 1.25rem;
+}
+.discription-single h2.wp-block-heading,
+.discription-single h3.wp-block-heading,
+.discription-single h4.wp-block-heading,
+.discription-single h5.wp-block-heading {
+  margin: 40px 0 20px;
 }
 .discription-single figure.wp-block-table table {
   margin-bottom: 10px;

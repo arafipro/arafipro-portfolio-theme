@@ -6,8 +6,8 @@
 else: echo "header_sub"; endif;?>>
 	<div id="header_main">
 		<h1>
-			<a href="<?php get_template_directory_uri(); ?>/">
-				<img src="<?php echo get_template_directory_uri(); ?>/img/logo_black.png" alt="" />
+			<a href="<?php esc_url(get_template_directory_uri()); ?>/">
+				<img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/logo_black.png" alt="" />
 			</a>
 		</h1>
 		<nav>
@@ -21,13 +21,13 @@ else: echo "header_sub"; endif;?>>
 					<li><a href="#skill" class="nav_link">Skill</a></li>
 					<li><a href="#contact" class="nav_link">Contact</a></li>
 				<?php else: ?>
-					<li><a href="<?php get_template_directory_uri(); ?>/" class="nav_link">Home</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/discription" class="nav_link">Discription</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/movie" class="nav_link">Movie</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/product" class="nav_link">Product</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/about" class="nav_link">About</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/#skill" class="nav_link">Skill</a></li>
-					<li><a href="<?php get_template_directory_uri(); ?>/#contact" class="nav_link">Contact</a></li>
+					<li><a href="<?php esc_url(get_template_directory_uri()); ?>/" class="nav_link">Home</a></li>
+					<li><a href="<?php esc_url(get_template_directory_uri()); ?>/discription" class="nav_link">Discription</a></li>
+					<li><a href="<?php esc_url(get_template_directory_uri()); ?>/movie" class="nav_link">Movie</a></li>
+					<li><a href="<?php esc_url(get_template_directory_uri()); ?>/product" class="nav_link">Product</a></li>
+					<li><a href="<?php esc_url(get_template_directory_uri()); ?>/about" class="nav_link">About</a></li>
+					<li><a href="<?php esc_url(get_template_directory_uri()); ?>/#skill" class="nav_link">Skill</a></li>
+					<li><a href="<?php esc_url(get_template_directory_uri()); ?>/#contact" class="nav_link">Contact</a></li>
 				<?php endif; ?>
 			</ul>
 		</nav>

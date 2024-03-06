@@ -25,7 +25,7 @@
 		wp_reset_postdata(); ?>
 	</div>
 	<?php if(is_front_page()):	?>
-		<a href="<?php get_template_directory_uri(); ?>/discription" class="more">
+		<a href="<?php esc_url(get_template_directory_uri()); ?>/discription" class="more">
 			<span>一覧を見る</span>
 		</a>
 	<?php endif; ?>

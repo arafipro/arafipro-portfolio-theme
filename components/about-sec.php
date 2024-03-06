@@ -1,7 +1,7 @@
 <section id="about" class="about jump_point">
 	<h2 class="top-title">About</h2>
 	<div>
-		<img src="<?php echo get_template_directory_uri(); ?>/img/human.png" alt="" />
+		<img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/human.png" alt="" />
 		<p>
 			ポートフォリオサイトをご覧いただきありがとうございます。<br />
 			はじめまして、Hiroki Chiyodaと申します。

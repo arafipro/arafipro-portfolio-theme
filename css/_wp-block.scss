@@ -17,6 +17,12 @@
   h6.wp-block-heading {
     font-size: 1.25rem;
   }
+  h2.wp-block-heading,
+  h3.wp-block-heading,
+  h4.wp-block-heading,
+  h5.wp-block-heading {
+    margin: 40px 0 20px;
+  }
   figure.wp-block-table {
     table {
       margin-bottom: 10px;
