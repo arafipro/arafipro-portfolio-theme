@@ -563,23 +563,24 @@ section {
   text-align: end;
 }
 .site-privacy h1.wp-block-heading {
-  font-size: 3rem;
+  font-size: 36px;
 }
 .site-privacy h2.wp-block-heading {
-  font-size: 2.5rem;
+  font-size: 30px;
 }
 .site-privacy h3.wp-block-heading {
-  font-size: 2rem;
+  font-size: 24px;
 }
 .site-privacy h4.wp-block-heading {
-  font-size: 1.75rem;
+  font-size: 20px;
 }
 .site-privacy h5.wp-block-heading {
-  font-size: 1.5rem;
+  font-size: 16px;
 }
 .site-privacy h6.wp-block-heading {
-  font-size: 1.25rem;
+  font-size: 12px;
 }
+.site-privacy h1.wp-block-heading,
 .site-privacy h2.wp-block-heading,
 .site-privacy h3.wp-block-heading,
 .site-privacy h4.wp-block-heading,
@@ -833,34 +834,40 @@ section {
 }
 .discription-single .top-title {
   text-align: center;
-  font-size: 3.25rem;
+  font-size: 2.75rem;
   font-weight: bold;
   padding-top: 0;
 }
-.discription-single a span {
-  color: #000;
+.discription-single .info {
+  display: flex;
+  justify-content: end;
 }
 .discription-single .info p {
-  margin: 0;
+  margin: 0 0 20px 20px;
+}
+.discription-single .author {
+  text-align: end;
+  margin-bottom: 20px;
 }
 .discription-single h1.wp-block-heading {
-  font-size: 3rem;
+  font-size: 36px;
 }
 .discription-single h2.wp-block-heading {
-  font-size: 2.5rem;
+  font-size: 30px;
 }
 .discription-single h3.wp-block-heading {
-  font-size: 2rem;
+  font-size: 24px;
 }
 .discription-single h4.wp-block-heading {
-  font-size: 1.75rem;
+  font-size: 20px;
 }
 .discription-single h5.wp-block-heading {
-  font-size: 1.5rem;
+  font-size: 16px;
 }
 .discription-single h6.wp-block-heading {
-  font-size: 1.25rem;
+  font-size: 12px;
 }
+.discription-single h1.wp-block-heading,
 .discription-single h2.wp-block-heading,
 .discription-single h3.wp-block-heading,
 .discription-single h4.wp-block-heading,
@@ -1067,5 +1074,4 @@ footer .footer_credit p {
 }
 #privacy .date {
   text-align: right;
-}
-/*# sourceMappingURL=theme.css.map */
+}/*# sourceMappingURL=theme.css.map */
