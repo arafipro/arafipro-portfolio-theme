@@ -12,6 +12,7 @@ html {
 body {
   font-family: "Noto Sans JP", sans-serif;
   overflow-x: hidden;
+  color: #333;
   background-color: #efefef;
 }
 
@@ -609,6 +610,13 @@ section {
   list-style: decimal;
   margin-left: 20px;
 }
+.site-privacy code {
+  margin: 0 2px;
+  padding: 3px;
+  font-size: 1rem;
+  background-color: #ddd;
+  border-radius: 5px;
+}
 
 .about div {
   display: flex;
@@ -876,6 +884,13 @@ section {
 .discription-single ol li {
   list-style: decimal;
   margin-left: 20px;
+}
+.discription-single code {
+  margin: 0 2px;
+  padding: 3px;
+  font-size: 1rem;
+  background-color: #ddd;
+  border-radius: 5px;
 }
 
 .product-single {
