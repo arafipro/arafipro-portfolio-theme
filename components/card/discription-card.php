@@ -18,6 +18,10 @@
 				<a href="<?php the_permalink(); ?>" target="_top">
 					<h3><?php the_title(); ?></h3>
 					<h4><?php the_excerpt(); ?></h4>
+					<div class="info">
+						<p>投稿日：<?php the_date('Y年m月d日') ?></p>
+						<p>更新日：<?php the_modified_date('Y年m月d日') ?></p>
+					</div>
 					<p class="link">記事を読む</p>
 				</a>
 			</div>

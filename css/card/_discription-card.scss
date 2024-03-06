@@ -28,7 +28,14 @@
       h4 {
         text-align: start;
         margin-bottom: 10px;
-        height: 50%;
+        height: 70px;
+      }
+      .info {
+        display: flex;
+        justify-content: space-around;
+        p {
+					margin-bottom: 10px;
+        }
       }
       .link {
         width: 100px;

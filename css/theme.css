@@ -397,7 +397,14 @@ section {
 .discription-cards .discription-card a h4 {
   text-align: start;
   margin-bottom: 10px;
-  height: 50%;
+  height: 70px;
+}
+.discription-cards .discription-card a .info {
+  display: flex;
+  justify-content: space-around;
+}
+.discription-cards .discription-card a .info p {
+  margin-bottom: 10px;
 }
 .discription-cards .discription-card a .link {
   width: 100px;
