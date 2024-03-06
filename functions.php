@@ -83,18 +83,18 @@ function post_has_archive($args, $post_type)
     if("post" == $post_type) {
         $args["rewrite"] = true;
         $args["has_archive"] = "discription";
-        $args["label"] = "記事";
+        $args["label"] = "技術記事";
     }
     return $args;
 }
 
-add_action("init", "cpt_register_product");
-add_action("init", "cpt_register_product_cat");
-add_action("init", "cpt_register_product_remove_edit");
-
 add_action("init", "cpt_register_movie");
 add_action("init", "cpt_register_movie_cat");
 add_action("init", "cpt_register_movie_remove_edit");
+
+add_action("init", "cpt_register_product");
+add_action("init", "cpt_register_product_cat");
+add_action("init", "cpt_register_product_remove_edit");
 
 add_filter("register_post_type_args", "post_has_archive", 10, 2);
 
