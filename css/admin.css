@@ -1,0 +1,9 @@
+.metabox-holder {
+  background-color: #fff;
+}
+.metabox-holder .postbox {
+  display: flex;
+  align-items: center;
+  border: unset;
+  box-shadow: unset;
+}

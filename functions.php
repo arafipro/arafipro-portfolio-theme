@@ -1,12 +1,13 @@
 <?php
 
-require_once('functions/admin-analytics.php');
 // require_once('functions/admin-sample.php');
-// require_once('functions/admin.php');
+require_once('functions/add_theme_cssjs.php');
+require_once('functions/admin_theme_cssjs.php');
+require_once('functions/admin_menu.php');
+require_once('functions/admin_analytics.php');
 require_once('functions/change_link.php');
 require_once('functions/cpt_register_movie.php');
 require_once('functions/cpt_register_product.php');
-require_once('functions/link_enqueue.php');
 
 function post_has_archive($args, $post_type)
 {

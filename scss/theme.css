@@ -577,12 +577,8 @@ section {
 .site-privacy .info p {
   text-align: end;
 }
-.site-privacy .info {
-  display: flex;
-  justify-content: end;
-}
 .site-privacy .info p {
-  margin: 0 0 20px 20px;
+  display: flex;
 }
 .site-privacy h1.wp-block-heading {
   font-size: 36px;
@@ -826,12 +822,8 @@ section {
   text-align: end;
   margin-bottom: 20px;
 }
-.discription-single .info {
-  display: flex;
-  justify-content: end;
-}
 .discription-single .info p {
-  margin: 0 0 20px 20px;
+  display: flex;
 }
 .discription-single h1.wp-block-heading {
   font-size: 36px;
@@ -1060,3 +1052,4 @@ footer .footer_credit p {
 #privacy .date {
   text-align: right;
 }
+/*# sourceMappingURL=theme.css.map */

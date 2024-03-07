@@ -1,4 +1,11 @@
 @mixin wp-block() {
+  .info {
+    display: flex;
+    justify-content: end;
+    p {
+      margin: 0 0 20px 20px;
+    }
+  }
   h1.wp-block-heading {
     font-size: 36px;
   }
