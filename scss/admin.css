@@ -1,10 +1,12 @@
-.metabox-holder {
+.settings {
   background-color: #fff;
 }
-.metabox-holder .postbox {
+.settings .setting {
   display: flex;
   align-items: center;
-  border: unset;
-  box-shadow: unset;
+}
+.settings .setting .title {
+  font-size: 1rem;
+  width: 100px;
 }
 /*# sourceMappingURL=admin.css.map */

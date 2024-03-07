@@ -1,12 +1,14 @@
-.metabox-holder {
+.settings {
   background-color: #fff;
-  .postbox {
+  .setting {
     display: flex;
     align-items: center;
-    border: unset;
-    box-shadow: unset;
     .title {
-      width: 80px;
+      font-size: 1rem;
+      width: 100px;
     }
+  }
+  .ana-setting {
+    padding: 10px;
   }
 }

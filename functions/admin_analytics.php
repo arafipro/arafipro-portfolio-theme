@@ -14,15 +14,11 @@ function analytics_setting_page()
 		<?php
     settings_fields('analytics-setting-group');
     do_settings_sections('analytics-setting-group'); ?>
-    <div class="metabox-holder">
-      <div class="postbox">
-				<div class="inside">
-					<h3>Google Analytics設定</h3>
-					<div class="main">
-						<p class="setting_description">Google Analyticsの設定で取得したタグを入力してください。</p>
-						<textarea id="analytics-tag" class="regular-text" name="analytics-tag" rows="10" cols="60" placeholder="<!-- Google tag (gtag.js) -->"><?php echo get_option('analytics-tag'); ?></textarea>
-          </div>
-        </div>
+    <div class="settings">
+      <div class="ana-setting">
+				<h3>Google Analytics設定</h3>
+				<p class="setting_description">Google Analyticsの設定で取得したタグIDを入力してください。</p>
+				<input placeholder="タグIDを入力してください" type="text" id="analytics-tag" name="analytics-tag" value="<?php echo get_option('analytics-tag'); ?>" />
       </div>
     </div>
     <?php submit_button(); ?>
