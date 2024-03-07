@@ -1,5 +1,8 @@
 <section id="movie" class="movie jump_point">
-	<h2 class="top-title">Movies</h2>
+	<h2 class="top-title">
+	<?php if(get_option('mov-txt')): echo strtoupper(get_option('mov-txt'));
+					else: echo "Movie"; endif; ?>
+	</h2>
 	<div class="movie-cards">
 		<?php
             // トップページの場合は6件、それ以外はすべて表示

@@ -1,5 +1,8 @@
 <section id="about" class="about jump_point">
-	<h2 class="top-title">About</h2>
+	<h2 class="top-title">
+	<?php if(get_option('about-txt')): echo strtoupper(get_option('about-txt'));
+					else: echo "About"; endif; ?>
+	</h2>
 	<div>
 		<img src="<?php echo esc_url(get_template_directory_uri()); ?>/img/human.png" alt="" />
 		<p>

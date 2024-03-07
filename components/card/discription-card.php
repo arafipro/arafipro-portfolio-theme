@@ -1,5 +1,8 @@
 <section id="discription" class="discription jump_point">
-	<h2 class="top-title">Discriptions</h2>
+	<h2 class="top-title">
+	<?php if(get_option('disc-txt')): echo strtoupper(get_option('disc-txt'));
+						else: echo "Discription"; endif; ?>
+	</h2>
 	<div class="discription-cards">
 		<?php
             // トップページの場合は6件、それ以外はすべて表示

@@ -1,5 +1,8 @@
 <section id="product" class="product jump_point">
-	<h2 class="top-title">Products</h2>
+	<h2 class="top-title">
+	<?php if(get_option('product-txt')): echo strtoupper(get_option('product-txt'));
+					else: echo "Product"; endif; ?>
+	</h2>
 	<div class="product-cards">
 		<?php
             // トップページの場合は6件、それ以外はすべて表示

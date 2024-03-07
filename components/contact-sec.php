@@ -1,5 +1,8 @@
 <section id="contact" class="contact">
-	<h2 class="top-title">Contact</h2>
+	<h2 class="top-title">
+	<?php if(get_option('contact-txt')): echo strtoupper(get_option('contact-txt'));
+					else: echo "Contact"; endif; ?>
+	</h2>
 	<h3>
 		お問い合わせは&nbsp;<a href="mailto:contact@arafipro.com">
 			contact@arafipro.com

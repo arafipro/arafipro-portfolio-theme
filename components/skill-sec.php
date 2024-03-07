@@ -1,5 +1,8 @@
 <section id="skill" class="skill jump_point">
-	<h2 class="top-title">Skills</h2>
+	<h2 class="top-title">
+	<?php if(get_option('skill-txt')): echo strtoupper(get_option('skill-txt'));
+					else: echo "Skill"; endif; ?>
+	</h2>
 	<div>
 		<h3>ホームページ</h3>
 		<a href="https://skillicons.dev">
