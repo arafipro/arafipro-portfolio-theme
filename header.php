@@ -32,19 +32,5 @@
 	rel="stylesheet"
 />
 <title>ARAFIPRO</title>
-<!-- Google tag (gtag.js) -->
-<!-- <script
-	async
-	src="https://www.googletagmanager.com/gtag/js?id=G-TG1DR49E5G"
-></script>
-<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag() {
-		dataLayer.push(arguments);
-	}
-	gtag("js", new Date());
-
-	gtag("config", "G-TG1DR49E5G");
-</script> -->
-
+<?php echo get_option('analytics-tag'); ?>
 <?php wp_head(); ?>

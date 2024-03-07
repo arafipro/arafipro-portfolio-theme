@@ -90,7 +90,7 @@ https://wp-statistics.com/
 
 # 管理画面
 
-https://webmemo.tokyo/articles/make-optionpage/
+https://jajaaan.co.jp/wordpress/wordpress-admin-page/
 
 ヘッダーメニュー・トップページセクションタイトル・一覧ページタイトルを連動して設定で変更できるようにする
 
