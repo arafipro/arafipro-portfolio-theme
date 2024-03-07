@@ -675,42 +675,102 @@ section {
 }
 
 .contact {
+  max-width: 600px;
   margin: 0 auto;
 }
-.contact div dl {
-  display: flex;
-  margin: 20px 0;
-}
-.contact div dt {
-  width: 30%;
-  font-size: 1.25rem;
-  display: flex;
-  align-items: center;
-}
-.contact div dd {
-  width: 70%;
-}
-.contact div dd input,
-.contact div dd textarea {
-  padding: 10px;
-  width: 100%;
-  border: none;
-}
-.contact div p {
+.contact h3 {
   text-align: center;
+  padding: 40px 0;
+  background-color: #fff;
+  border-radius: 20px;
 }
-.contact div p .wpcf7-submit {
+.contact h3 a {
+  text-decoration: underline;
+  font-size: 1.5rem;
+}
+.contact div {
+  margin: 10px;
+}
+.contact div .input_wrapper {
+  position: relative;
+}
+.contact div .input_wrapper input {
   width: 100%;
+  height: 40px;
+  padding: 4px;
   font-size: 1rem;
-  padding: 10px 20px;
-  border-radius: 4px;
-  border: none;
-  background-color: #ddd;
-  font-weight: bold;
-  transition: all 0.2s;
 }
-.contact div p .wpcf7-submit:hover {
-  background-color: #bbb;
+.contact div .input_wrapper input:not(:-moz-placeholder-shown) + span {
+  font-size: 0.6rem;
+  inset: -0.5rem auto auto 0.5rem;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.contact div .input_wrapper input:focus + span, .contact div .input_wrapper input:not(:placeholder-shown) + span {
+  font-size: 0.6rem;
+  inset: -0.5rem auto auto 0.5rem;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  transition: all 0.3s ease;
+}
+.contact div .input_wrapper textarea {
+  width: 100%;
+  height: 200px;
+  padding: 4px;
+  font-size: 1rem;
+}
+.contact div .input_wrapper textarea:not(:-moz-placeholder-shown) + span {
+  font-size: 0.6rem;
+  inset: -0.5rem auto auto 0.5rem;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.contact div .input_wrapper textarea:focus + span, .contact div .input_wrapper textarea:not(:placeholder-shown) + span {
+  font-size: 0.6rem;
+  inset: -0.5rem auto auto 0.5rem;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  transition: all 0.3s ease;
+}
+.contact div .input_wrapper span {
+  position: absolute;
+  inset: 0rem auto auto 0rem;
+  font-size: 0.9rem;
+  padding: 8px;
+}
+.contact .btn {
+  text-align: center;
+  padding-bottom: 40px;
+}
+.contact .btn button {
+  background-color: #333;
+  color: #fff;
+  width: 240px;
+  height: 40px;
+  transition: all 0.3s;
+}
+.contact .btn button:hover {
+  background-color: #fff;
+  color: #333;
+}
+@media screen and (max-width: 500px) {
+  .contact {
+    margin: 0 10px;
+  }
+  .contact h3 {
+    font-size: 1rem;
+  }
+  .contact .btn {
+    padding: 20px 0;
+  }
+  .contact .btn button {
+    width: 200px;
+    margin: 10px;
+  }
 }
 
 .skill div {
