@@ -87,3 +87,17 @@ Noto Sans JP Regular 400 menu
 # 検討プラグイン
 
 https://wp-statistics.com/
+
+# 管理画面
+
+https://webmemo.tokyo/articles/make-optionpage/
+
+ヘッダーメニュー・トップページセクションタイトル・一覧ページタイトルを連動して設定で変更できるようにする
+
+- Home
+- Discription
+- Movie
+- Product
+- About
+- Skill
+- Contact

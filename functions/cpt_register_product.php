@@ -4,7 +4,7 @@
 function cpt_register_product()
 {
     $labels = [
-        "singular_name" => "product",
+        "singular_name" => "プロダクト",
         "edit_item" => "product",
     ];
     $args = [

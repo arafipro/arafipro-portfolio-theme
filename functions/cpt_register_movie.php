@@ -5,7 +5,7 @@
 function cpt_register_movie()
 {
     $labels = [
-                "singular_name" => "movie",
+                "singular_name" => "動画",
                 "edit_item" => "movie",
     ];
     $args = [
@@ -22,7 +22,6 @@ function cpt_register_movie()
     register_post_type("movie", $args);
 }
 
-
 // 投稿タイプにカテゴリーを追加
 function cpt_register_movie_cat()
 {
@@ -31,7 +30,7 @@ function cpt_register_movie_cat()
                 "public" => true,
                 "hierarchical" => true,
                 "show_in_rest" => true,
-        ];
+];
     register_taxonomy("movie-cat", ["movie"], $args);
 }
 
