@@ -16,8 +16,8 @@ function analytics_setting_page()
     do_settings_sections('analytics-setting-group'); ?>
     <div class="metabox-holder">
       <div class="postbox">
-				<h3 class='hndle'><span>Google Analytics設定</span></h3>
-        <div class="inside">
+				<div class="inside">
+					<h3>Google Analytics設定</h3>
 					<div class="main">
 						<p class="setting_description">Google Analyticsの設定で取得したタグを入力してください。</p>
 						<textarea id="analytics-tag" class="regular-text" name="analytics-tag" rows="10" cols="60" placeholder="<!-- Google tag (gtag.js) -->"><?php echo get_option('analytics-tag'); ?></textarea>

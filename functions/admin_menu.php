@@ -15,31 +15,31 @@ function menu_setting_page()
     do_settings_sections('menu-settings-group'); ?>
 	<div class="metabox-holder">
 		<div class="postbox">
-			<h3>テキスト</h3>
+			<h3 class="title">Home</h3>
 			<input placeholder="Home" type="text" id="home-txt" name="home-txt" value="<?php echo get_option('home-txt'); ?>">
 		</div>
 		<div class="postbox">
-			<h3>テキスト</h3>
+			<h3 class="title">Discription</h3>
 			<input placeholder="Discription" type="text" id="disc-text" name="disc-text" value="<?php echo get_option('disc-text'); ?>">
 		</div>
 		<div class="postbox">
-			<h3>テキスト</h3>
+			<h3 class="title">Movie</h3>
 			<input placeholder="Movie" type="text" id="mov-txt" name="mov-txt" value="<?php echo get_option('mov-txt'); ?>">
 		</div>
 		<div class="postbox">
-			<h3>テキスト</h3>
+			<h3 class="title">Product</h3>
 			<input placeholder="Product" type="text" id="product-txt" name="product-txt" value="<?php echo get_option('product-txt'); ?>">
 		</div>
 		<div class="postbox">
-			<h3>テキスト</h3>
+			<h3 class="title">About</h3>
 			<input placeholder="About" type="text" id="about-txt" name="about-txt" value="<?php echo get_option('about-txt'); ?>">
 		</div>
 		<div class="postbox">
-			<h3>テキスト</h3>
+			<h3 class="title">Skill</h3>
 			<input placeholder="Skill" type="text" id="skill-txt" name="skill-txt" value="<?php echo get_option('skill-txt'); ?>">
 		</div>
 		<div class="postbox">
-			<h3>テキスト</h3>
+			<h3 class="title">Contact</h3>
 			<input placeholder="Contact" type="text" id="contact-txt" name="contact-txt" value="<?php echo get_option('contact-txt'); ?>">
 		</div>
 	</div>

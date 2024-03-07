@@ -7,3 +7,6 @@
   border: unset;
   box-shadow: unset;
 }
+.metabox-holder .postbox .title {
+  width: 80px;
+}
