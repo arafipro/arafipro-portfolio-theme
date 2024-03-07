@@ -9,8 +9,7 @@
     <main>
 			<?php get_template_part("components/single/product") ?>
     </main>
-		<?php get_template_part("components/nav/footer-nav") ?>
-		<!-- footer.phpを読み込む -->
-		<?php get_footer(); ?>
   </body>
+	<!-- footer.phpを読み込む -->
+	<?php get_footer(); ?>
 </html>

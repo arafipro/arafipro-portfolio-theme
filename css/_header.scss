@@ -24,6 +24,9 @@
       max-width: 100%;
       display: flex;
       align-items: center;
+      .ri-menu-line {
+        cursor: pointer;
+      }
     }
     li {
       font-size: 1.3rem;
@@ -58,6 +61,7 @@
     .nav_icon {
       display: none;
       font-size: 32px;
+      cursor: pointer;
     }
   }
 

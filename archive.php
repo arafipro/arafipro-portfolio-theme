@@ -9,8 +9,7 @@
     <main>
 			<?php get_template_part("components/card/discription-card") ?>
     </main>
-		<?php get_template_part("components/nav/footer-nav") ?>
-		<!-- footer.phpを読み込む -->
-		<?php get_footer(); ?>
   </body>
+	<!-- footer.phpを読み込む -->
+	<?php get_footer(); ?>
 </html>

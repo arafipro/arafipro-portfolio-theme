@@ -81,6 +81,9 @@ section {
   display: flex;
   align-items: center;
 }
+.header_top #header_main #nav_menu .ri-menu-line {
+  cursor: pointer;
+}
 .header_top #header_main li {
   font-size: 1.3rem;
   font-weight: 300;
@@ -114,6 +117,7 @@ section {
 .header_top #header_main .nav_icon {
   display: none;
   font-size: 32px;
+  cursor: pointer;
 }
 .header_top .hero-top {
   width: 900px;
@@ -240,6 +244,9 @@ section {
   display: flex;
   align-items: center;
 }
+.header_sub #header_main #nav_menu .ri-menu-line {
+  cursor: pointer;
+}
 .header_sub #header_main li {
   font-size: 1.3rem;
   font-weight: 300;
@@ -273,6 +280,7 @@ section {
 .header_sub #header_main .nav_icon {
   display: none;
   font-size: 32px;
+  cursor: pointer;
 }
 .header_sub .hero-top {
   width: 900px;
@@ -667,105 +675,6 @@ section {
 }
 
 .contact {
-  max-width: 600px;
-  margin: 0 auto;
-}
-.contact h3 {
-  text-align: center;
-  padding: 40px 0;
-  background-color: #fff;
-  border-radius: 20px;
-}
-.contact h3 a {
-  text-decoration: underline;
-  font-size: 1.5rem;
-}
-.contact div {
-  margin: 10px;
-}
-.contact div .input_wrapper {
-  position: relative;
-}
-.contact div .input_wrapper input {
-  width: 100%;
-  height: 40px;
-  padding: 4px;
-  font-size: 1rem;
-}
-.contact div .input_wrapper input:not(:-moz-placeholder-shown) + span {
-  font-size: 0.6rem;
-  inset: -0.5rem auto auto 0.5rem;
-  background-color: #fff;
-  padding: 0 0.5rem;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.contact div .input_wrapper input:focus + span, .contact div .input_wrapper input:not(:placeholder-shown) + span {
-  font-size: 0.6rem;
-  inset: -0.5rem auto auto 0.5rem;
-  background-color: #fff;
-  padding: 0 0.5rem;
-  transition: all 0.3s ease;
-}
-.contact div .input_wrapper textarea {
-  width: 100%;
-  height: 200px;
-  padding: 4px;
-  font-size: 1rem;
-}
-.contact div .input_wrapper textarea:not(:-moz-placeholder-shown) + span {
-  font-size: 0.6rem;
-  inset: -0.5rem auto auto 0.5rem;
-  background-color: #fff;
-  padding: 0 0.5rem;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.contact div .input_wrapper textarea:focus + span, .contact div .input_wrapper textarea:not(:placeholder-shown) + span {
-  font-size: 0.6rem;
-  inset: -0.5rem auto auto 0.5rem;
-  background-color: #fff;
-  padding: 0 0.5rem;
-  transition: all 0.3s ease;
-}
-.contact div .input_wrapper span {
-  position: absolute;
-  inset: 0rem auto auto 0rem;
-  font-size: 0.9rem;
-  padding: 8px;
-}
-.contact .btn {
-  text-align: center;
-  padding-bottom: 40px;
-}
-.contact .btn button {
-  background-color: #333;
-  color: #fff;
-  width: 240px;
-  height: 40px;
-  transition: all 0.3s;
-}
-.contact .btn button:hover {
-  background-color: #fff;
-  color: #333;
-}
-@media screen and (max-width: 500px) {
-  .contact {
-    margin: 0 10px;
-  }
-  .contact h3 {
-    font-size: 1rem;
-  }
-  .contact .btn {
-    padding: 20px 0;
-  }
-  .contact .btn button {
-    width: 200px;
-    margin: 10px;
-  }
-}
-
-.contact {
   margin: 0 auto;
 }
 .contact div dl {
@@ -1013,7 +922,7 @@ footer .footer_credit p {
     width: 100%;
   }
 }
-.scrollup.active {
+#scrollup.active {
   position: fixed;
   right: 2rem;
   bottom: 8rem;
@@ -1022,14 +931,14 @@ footer .footer_credit p {
   border-radius: 0.25rem;
   transition: all 0.3s ease;
 }
-.scrollup:hover {
+#scrollup:hover {
   background-color: #333;
 }
-.scrollup .scrollup_icon {
+#scrollup .scrollup_icon {
   color: #333;
   font-size: 40px;
 }
-.scrollup .scrollup_icon:hover {
+#scrollup .scrollup_icon:hover {
   color: #fff;
 }
 
