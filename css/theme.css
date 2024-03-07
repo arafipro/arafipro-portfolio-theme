@@ -618,6 +618,7 @@ section {
 }
 .site-privacy p {
   margin-bottom: 10px;
+  line-height: 1.6;
 }
 .site-privacy ul li {
   list-style: disc;
@@ -628,8 +629,8 @@ section {
   margin-left: 20px;
 }
 .site-privacy code {
-  margin: 0 2px;
-  padding: 3px;
+  margin: 100px 2px;
+  padding: 1px 3px;
   font-size: 1rem;
   background-color: rgba(221, 221, 221, 0.8);
   border-radius: 5px;
@@ -866,6 +867,7 @@ section {
 }
 .discription-single p {
   margin-bottom: 10px;
+  line-height: 1.6;
 }
 .discription-single ul li {
   list-style: disc;
@@ -876,8 +878,8 @@ section {
   margin-left: 20px;
 }
 .discription-single code {
-  margin: 0 2px;
-  padding: 3px;
+  margin: 100px 2px;
+  padding: 1px 3px;
   font-size: 1rem;
   background-color: rgba(221, 221, 221, 0.8);
   border-radius: 5px;
