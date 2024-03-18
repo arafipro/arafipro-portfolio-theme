@@ -1,9 +1,11 @@
 <?php
+add_theme_support('post-thumbnails');
+// 投稿タイプの引数を変更
 function post_has_archive($args, $post_type)
 {
     $labels = [
         "singular_name" => "技術記事",
-        "edit_item" => "product",
+        "edit_item" => "discription",
     ];
     if("post" == $post_type) {
         $args["rewrite"] = true;
@@ -31,7 +33,7 @@ add_action('wp_enqueue_scripts', "add_theme_cssjs");
 function admin_theme_cssjs()
 {
     wp_enqueue_style('admin_style', get_theme_file_uri('/css/admin.css'));
-		wp_enqueue_script('admin_script', get_theme_file_uri('/js/admin.js'));
+    wp_enqueue_script('admin_script', get_theme_file_uri('/js/admin.js'));
 }
 
 add_action('admin_enqueue_scripts', 'admin_theme_cssjs');
@@ -40,7 +42,7 @@ add_action('admin_enqueue_scripts', 'admin_theme_cssjs');
 function add_menu_setting_page()
 {
     add_menu_page('共通設定画面', '項目名設定', 'manage_options', 'menu_setting_page', 'menu_setting_page', 'dashicons-admin-generic', 40);
-		add_action('admin_init', 'add_menu_setting');
+    add_action('admin_init', 'add_menu_setting');
 }
 function menu_setting_page()
 {
@@ -88,13 +90,13 @@ function menu_setting_page()
 }
 function add_menu_setting()
 {
-		register_setting('menu-settings-group', 'home-txt');
-		register_setting('menu-settings-group', 'disc-txt');
-		register_setting('menu-settings-group', 'mov-txt');
-		register_setting('menu-settings-group', 'product-txt');
-		register_setting('menu-settings-group', 'about-txt');
-		register_setting('menu-settings-group', 'skill-txt');
-		register_setting('menu-settings-group', 'contact-txt');
+    register_setting('menu-settings-group', 'home-txt');
+    register_setting('menu-settings-group', 'disc-txt');
+    register_setting('menu-settings-group', 'mov-txt');
+    register_setting('menu-settings-group', 'product-txt');
+    register_setting('menu-settings-group', 'about-txt');
+    register_setting('menu-settings-group', 'skill-txt');
+    register_setting('menu-settings-group', 'contact-txt');
 }
 
 add_action('admin_menu', 'add_menu_setting_page');
@@ -178,7 +180,7 @@ function cpt_register_movie()
                 "rewrite" => ["slug" => "movie"],
                 "show_in_rest" => true,
                 "menu_position" => 5,
-                "supports" => ["title", "editor", "thumbnail", "custom-fields"],
+                "supports" => ["title", "editor", "custom-fields"],
                 "taxonomies" => ["movie-cat", "movie-tag"],
     ];
     register_post_type("movie", $args);
@@ -222,7 +224,7 @@ function cpt_register_product()
         "rewrite" => ["slug" => "product"],
         "show_in_rest" => true,
         "menu_position" => 5,
-        "supports" => ["title", "editor", "thumbnail", "custom-fields"],
+        "supports" => ["title", "editor", "custom-fields"],
         "taxonomies" => ["product-cat", "product-tag"],
     ];
     register_post_type("product", $args);
