@@ -11,7 +11,7 @@
 />
 <meta
 	property="og:description"
-	content="ポートフォリオサイトをご覧いただきありがとうございます。はじめまして、Hiroki Chiyodaと申します。 私は株式投資をきっかけにプログラミングを勉強しています。"
+	content="ポートフォリオサイトをご覧いただきありがとうございます。はじめまして、Hiroki Chiyodaと申します。私は株式投資をきっかけにプログラミングを勉強しています。"
 />
 <meta property="og:type" content="ページの種類" />
 <meta property="og:url" content="https://portfolio.arafipro.com/" />
@@ -46,4 +46,5 @@
 
 	gtag("config", "<?php echo get_option('analytics-tag'); ?>");
 </script>
+<script async src="<?php echo get_option('adsense-tag'); ?>" crossorigin="anonymous"></script>
 <?php wp_head(); ?>

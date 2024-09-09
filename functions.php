@@ -137,6 +137,41 @@ function add_analytics_setting()
 
 add_action('admin_menu', 'add_analytics_setting_page');
 
+// Google AdSense設定
+function add_adsense_setting_page()
+{
+    add_menu_page('共通設定画面', 'Google AdSense設定', 'manage_options', 'adsense_setting_page', 'adsense_setting_page', 'dashicons-admin-generic', 40);
+    add_action('admin_init', 'add_adsense_setting');
+}
+
+function adsense_setting_page()
+{
+    ?>
+<div class="wrap">
+  <h2>Google AdSense設定</h2>
+  <form method="post" action="options.php" enctype="multipart/form-data" encoding="multipart/form-data">
+		<?php
+    settings_fields('adsense-setting-group');
+    do_settings_sections('adsense-setting-group'); ?>
+    <div class="settings">
+      <div class="ana-setting">
+				<h3>Google AdSense設定</h3>
+				<p class="setting_description">Google AdSense設定で取得したタグを入力してください。</p>
+				<textarea cols="50" rows="5" placeholder="タグIDを入力してください" type="text" id="adsense-tag" name="adsense-tag" value="<?php echo get_option('adsense-tag'); ?>"></textarea>
+      </div>
+    </div>
+    <?php submit_button(); ?>
+  </form>
+</div>
+<?php
+}
+function add_adsense_setting()
+{
+    register_setting('adsense-setting-group', 'adsense-tag');
+}
+
+add_action('admin_menu', 'add_adsense_setting_page');
+
 // カスタム投稿タイプの投稿のパーマリンクを自動で設定する
 function change_link()
 {
