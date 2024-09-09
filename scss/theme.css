@@ -616,6 +616,14 @@ section {
 .site-privacy figure.wp-block-image {
   margin: 10px 0;
 }
+.site-privacy figure.wp-block-embed-youtube {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.site-privacy figure.wp-block-embed-youtube .wp-block-embed__wrapper {
+  max-width: 100%;
+}
 .site-privacy strong {
   font-weight: bold;
 }
@@ -864,6 +872,14 @@ section {
 }
 .discription-single figure.wp-block-image {
   margin: 10px 0;
+}
+.discription-single figure.wp-block-embed-youtube {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.discription-single figure.wp-block-embed-youtube .wp-block-embed__wrapper {
+  max-width: 100%;
 }
 .discription-single strong {
   font-weight: bold;

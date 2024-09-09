@@ -40,6 +40,14 @@
   figure.wp-block-image {
     margin: 10px 0;
   }
+	figure.wp-block-embed-youtube {
+		display: flex;
+		justify-content: center;
+		margin: 20px 0;
+		.wp-block-embed__wrapper {
+			max-width: 100%;
+		}
+	}
   strong {
     font-weight: bold;
   }
