@@ -14,5 +14,19 @@
     text-align: end;
     margin-bottom: 20px;
   }
+	.discription-content {
+		& > * {
+			margin-bottom: 20px;		
+		}
+		.wp-block-list{
+			li{
+				margin-bottom: 10px;
+				line-height: 1.5;
+				&:last-child{
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
   @include wp-block();
 }

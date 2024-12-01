@@ -8,6 +8,6 @@
 			<p>更新日：<?php the_modified_date('Y年m月d日') ?></p>
 		</div>
 		<p class="author">投稿者：<?php the_author() ?></p>
-		<?php the_content() ?>
+		<div class="discription-content"><?php the_content() ?></div>
 	<?php endwhile; endif; ?>
 </section>

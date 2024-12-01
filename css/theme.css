@@ -834,6 +834,16 @@ section {
   text-align: end;
   margin-bottom: 20px;
 }
+.discription-single .discription-content > * {
+  margin-bottom: 20px;
+}
+.discription-single .discription-content .wp-block-list li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.discription-single .discription-content .wp-block-list li:last-child {
+  margin-bottom: 0;
+}
 .discription-single .info {
   display: flex;
   justify-content: end;
